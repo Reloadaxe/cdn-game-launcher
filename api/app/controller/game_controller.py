@@ -17,7 +17,8 @@ class GameLaunch(Resource):
     def get(self, game_name):
         return GameService.getGame(game_name)
 
-@api.route('/<string:game_name>/<string:filename>')
+@api.route('/<string:game_name>/<path:filename>')
 class GameGetFile(Resource):
     def get(self, game_name, filename):
+        print(filename)
         return GameService.getFileGame(game_name, filename)

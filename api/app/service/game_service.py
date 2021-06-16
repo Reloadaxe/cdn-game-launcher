@@ -55,7 +55,7 @@ class GameService():
             print(e)
             abort(404)
 
-        with open(filepath, "r") as fp:
+        with open(filepath, "rb") as fp:
             content = fp.read()
         os.unlink(filepath)
         return Response(content, mimetype="text/html")
@@ -69,7 +69,7 @@ class GameService():
             print(e)
             abort(404)
 
-        with open(filepath, "r") as fp:
+        with open(filepath, "rb") as fp:
             content = fp.read()
         os.unlink(filepath)
         return Response(content)
