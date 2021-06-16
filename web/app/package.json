@@ -1,0 +1,40 @@
+{
+  "name": "game-manager",
+  "version": "0.0.1",
+  "homepage": ".",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "json-loader": "^0.5.7",
+    "moment-timezone": "0.5.33",
+    "react": "^16.11.0",
+    "react-bootstrap": "^1.5.2",
+    "react-bootstrap-icons": "^1.4.0",
+    "react-dom": "^16.11.0",
+    "react-moment": "1.1.1",
+    "react-notifications": "^1.7.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.0"
+  },
+  "scripts": {
+    "start": "/app/node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "/app/node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "/app/node_modules/react-scripts/bin/react-scripts.js test",
+    "eject": "/app/node_modules/react-scripts/bin/react-scripts.js eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
